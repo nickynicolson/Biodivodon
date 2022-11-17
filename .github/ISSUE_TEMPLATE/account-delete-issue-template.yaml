@@ -1,9 +1,8 @@
 name: Account delete issue template
+description: Delete account from list
 title: Delete account from list
-about: Delete account from list
-labels: ["account delete"]
-assignees: 
-  - nickynicolson
+labels: "account delete"
+assignees: nickynicolson
 body:
   - type: textarea
     attributes:
