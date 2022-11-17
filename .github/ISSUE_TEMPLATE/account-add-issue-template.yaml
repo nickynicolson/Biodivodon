@@ -1,0 +1,31 @@
+name: Account add issue template
+description: Add account to list
+title: Add account to list
+labels: "account add"
+assignees: nickynicolson
+body:
+  - type: input
+    attributes:
+      label: Account name
+      description: What account name would you like to add?
+      placeholder: "Example: @username@mastodon.social"
+      value: account name
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Real name
+      description: Would you like to provide your real name?
+      value: account real name
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Interests
+      description: Interests, one per line
+      value: interests
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Thanks for submitting a request"
