@@ -9,21 +9,21 @@ body:
       label: Account name
       description: What account name would you like to add?
       placeholder: "Example: @username@mastodon.social"
-      value: account name
+      value: 
     validations:
       required: true
   - type: input
     attributes:
       label: Real name
       description: Would you like to provide your real name?
-      value: account real name
+      value: 
     validations:
       required: false
   - type: textarea
     attributes:
       label: Interests
       description: Interests, one per line
-      value: interests
+      value: 
     validations:
       required: false
   - type: markdown
