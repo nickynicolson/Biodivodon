@@ -1,5 +1,6 @@
 name: Account delete issue template
 title: Delete account from list
+about: Delete account from list
 labels: ["account delete"]
 assignees: 
   - nickynicolson
